@@ -1,0 +1,39 @@
+body{
+    background-color: #161515;
+    color: white ;
+}
+
+nav{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: #ffe6e6;
+    color: black;
+    border-radius: 15px;
+    margin-left: 5px;
+}
+.mainContainer{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+
+
+.mainRight {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}   
+
+.card {
+  background-color: rgb(71, 57, 57);
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: center;
+}   
