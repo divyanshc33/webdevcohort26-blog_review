@@ -18,22 +18,27 @@ nav{
     align-items: center;
     margin-top: 20px;
 }
+button{
+    border-radius: 5px;
+    padding: 0.5rem;
+    cursor: pointer;
+}
 
 
 
 
 .mainRight {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(3, minmax(200px, 1fr));
   gap: 1rem;
-  padding: 1rem;
+  padding: 0;
 }   
 
 .card {
-  background-color: rgb(71, 57, 57);
+  background-color: rgb(58, 56, 56);
   border: 1px solid #ddd;
   border-radius: 8px;
-  padding: 1rem;
+  padding: 0.1rem;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   text-align: center;
 }   
