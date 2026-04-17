@@ -12,6 +12,15 @@ nav{
     border-radius: 15px;
     margin-left: 5px;
 }
+ul,li{
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
 .mainContainer{
     display:grid;
     justify-content:space-around;
@@ -23,6 +32,7 @@ button{
     border-radius: 5px;
     padding: 0.5rem;
     cursor: pointer;
+    
 }
 
 
@@ -33,13 +43,18 @@ button{
   grid-template-columns: repeat(2, minmax(200px, 1fr));
   gap: 1rem;
   padding: 0;
+  
 }   
 
 .card {
-  background-color: rgb(58, 56, 56);
-  border: 1px solid #ddd;
+  /* background-color: rgb(58, 56, 56); */
+  /* border: 1px solid #ddd; */
   border-radius: 8px;
   padding: 0.1rem;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  /* box-shadow: 0 2px 5px rgba(0,0,0,0.1); */
   text-align: center;
+   /* box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); */
 }   
+.card:hover{
+     box-shadow: 0 8px 32px 0 rgba(240, 241, 243, 0.37);
+}
