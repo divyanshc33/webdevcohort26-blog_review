@@ -13,10 +13,11 @@ nav{
     margin-left: 5px;
 }
 .mainContainer{
-    display:flex;
+    display:grid;
     justify-content:space-around;
     align-items: center;
     margin-top: 20px;
+    grid-template-columns: repeat(2,1fr);
 }
 button{
     border-radius: 5px;
@@ -29,7 +30,7 @@ button{
 
 .mainRight {
   display: grid;
-  grid-template-columns: repeat(3, minmax(200px, 1fr));
+  grid-template-columns: repeat(2, minmax(200px, 1fr));
   gap: 1rem;
   padding: 0;
 }   
